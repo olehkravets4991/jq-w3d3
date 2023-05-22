@@ -1,0 +1,185 @@
+* { 
+    outline: 3px solid gold;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h2{
+  background-color: pink;
+}
+
+.navbar {
+ display: flex;
+ background:rgb(62, 114, 144);
+ justify-content: space-around;
+ height: 60px;
+ width: 70%;
+ color: aliceblue;
+ margin: 30px  auto;
+}
+
+.navbar ul{
+  font-size: 1.2em;
+}
+
+.Main {
+  width: 70%;
+  margin: 30px  auto;
+}
+
+.Main img {
+  height:auto; 
+  width: 100%;
+}
+
+/* ///////////////////// */
+
+
+.Raw1{
+  display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+
+.Raw1 img {
+    height: 350px;
+  }
+/* //////////////////////// */
+
+
+.Raw2{
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px  auto;
+  display: flex;
+}
+
+.Raw2 img {
+  height: 350px;
+}
+
+/* //////////////////////// */
+
+.Raw3{
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px  auto;
+  display: flex;
+}
+
+.Raw3 img {
+  height: 350px;
+}
+
+/* ////////////////////// */
+
+
+.Description{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  height: 150px;
+
+}
+ /* /////////////////////// */
+
+.Description .Number1 {
+  background-color: aliceblue;
+}
+
+.Description .Number1 .title{
+  text-align: left;
+  display: flex;
+  font-size: 0.60em;
+  color: #18a4c7;
+}
+
+.Description .Number1 .Price{
+  text-align: right;
+}
+
+.Description .Number1 .p {
+  display: flex;
+  justify-content:space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.Description .Number1 .tags {
+  display: flex;
+  /* width: auto; */
+}
+
+.Description .Number1 .tags ul {
+  background-color: #eeeeee;
+}
+
+/* ////////////////////////////////////////////// */
+
+.Description .Number2 {
+  background-color: aliceblue;
+}
+
+.Description .Number2 .title{
+  text-align: left;
+  display: flex;
+  font-size: 0.60em;
+  color: #92b2ba;
+}
+
+.Description .Number2 .Price{
+  text-align: right;
+}
+
+.Description .Number2 .p {
+  display: flex;
+  justify-content:space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.Description .Number2 .tags {
+  display: flex;
+  /* width: auto; */
+}
+
+.Description .Number2 .tags ul {
+  background-color: #eeeeee;
+}
+
+/* //////////////// */
+
+.Description .Number3 {
+  background-color: aliceblue;
+}
+
+.Description .Number3 .title{
+  text-align: left;
+  display: flex;
+  font-size: 0.60em;
+  color: #92b2ba;
+}
+
+.Description .Number3 .Price{
+  text-align: right;
+}
+
+.Description .Number3 .p {
+  display: flex;
+  justify-content:space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.Description .Number3 .tags {
+  display: flex;
+  /* width: auto; */
+}
+
+.Description .Number3 .tags ul {
+  background-color: #eeeeee;
+}
